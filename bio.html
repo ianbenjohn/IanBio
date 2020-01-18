@@ -3,22 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <title>Ian Bio</title>
+        <style>
+            h1 {
+                margin-bottom: 20px;
+                font-size: 40px;
+                color: white;
+                text-align: center;
+                background-color: coral;
+                border: 20px double black;
+            }
+            p {
+                text-align: center;
+                font-weight: bold;
+            }
+            .bigBlue {
+                background-color: cornflowerblue;
+                
+                text-align: center;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%
+            }
+            .column{
+                column-count: 3;
+                column-gap: 40px;
+            }
+        </style>
     </head>
     <body>
-        <h1>Student Bio</h1>
-        <h2>Ian Johnson</h2>
-        <img alt="Ian" src="/Users/ianjohnson/Downloads/cat.jpeg"/>
-            <p>My name is Ian and I am from Troutdale Oregon. I like to hang out with friends
-            and play games.</p>
-            <p>I also enjoy long walks on the beach</p>
-        <h3>Contact info:</h3>
-        <ul>
-            <li><strong>Email:</strong> some@gmail.com</li>
-            <li><strong>GitHub:</strong> MyGitHub</li>
-            <li><strong>Portfolio:</strong></li>
-        </ul>
-            
+            <h1>Student Bio</h1>
+            <h2 class="bigBlue">Ian Johnson</h2>
 
+            <div class="column">
+
+            <img alt="Ian" src="cat.jpeg"/>
+                <p>My name is Ian and I am from Troutdale Oregon. I like to hang out with friends
+                and play games.</p>
+                <p>I also enjoy long walks on the beach</p>
+            <h3>Contact info:</h3>
+            <ul>
+                <li><strong>Email:</strong> some@gmail.com</li>
+                <li><strong>GitHub:</strong> MyGitHub</li>
+                <li><strong>Portfolio:</strong>I dont have one</li>
+            </ul>
+            
+        </div>
 
     </body>
 
